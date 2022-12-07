@@ -62,3 +62,9 @@
     color: var(--darkgray);
   }
 }
+
+@media (max-width: 40em) {
+  .navbar-search {
+    margin: 0 auto;
+  }
+}
