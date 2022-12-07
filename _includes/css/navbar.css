@@ -30,7 +30,7 @@
 }
 .navbar-search {
   flex-grow: 1;
-  max-width: 800px;
+  max-width: 360px;
   margin-left: auto;
 }
 
