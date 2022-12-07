@@ -30,7 +30,10 @@ body {
 }
 
 main {
-  padding: 5vh 5vw;
+  /* padding: 5vh 5vw;*/
+  width: 96%;
+  max-width: 1080px;
+  margin: 0 auto;
 
   & > :first-child {
     margin-top: 0;
