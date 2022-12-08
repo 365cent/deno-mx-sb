@@ -4,3 +4,7 @@
     curl -fsSL https://deno.land/x/install/install.sh | sh && \
     /opt/buildhome/.deno/bin/deno task build --location=https://mx.sb/ \
   """
+[[redirects]]
+  from = "/cv"
+  to = "https://publish.uwo.ca/~jding263/resume"
+  status = 303
