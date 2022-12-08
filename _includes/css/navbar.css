@@ -73,6 +73,12 @@ header {
     border-bottom-left-radius: var(--pagefind-ui-border-radius);
     width: 100%;
     box-sizing: border-box;
+    & a {
+      padding: 0;
+      &:hover {
+        text-underline-offset: 0;
+      }
+    }
   }
   & .pagefind-ui__message {
     margin: 0;
