@@ -27,6 +27,9 @@ header {
 }
 .navbar-home {
   text-transform: uppercase;
+  &:hover {
+    text-decoration: none;
+  }
 }
 .navbar-links {
   padding: 0;
