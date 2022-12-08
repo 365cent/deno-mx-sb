@@ -47,6 +47,9 @@ header {
   & .pagefind-ui__form:before {
     top: calc(1em * var(--pagefind-ui-scale));
   }
+  & .pagefind-ui__search-input {
+    height: calc(3em * var(--pagefind-ui-scale));
+  }
   & .pagefind-ui__drawer {
     margin-top: 2px;
     position: absolute;
