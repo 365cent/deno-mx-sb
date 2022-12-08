@@ -1,0 +1,11 @@
+/* 
+  cache-control: public
+  cache-control: max-age=120
+
+/pagefind/*
+  cache-control: public
+  cache-control: max-age=604800
+
+*.css, *.js
+  cache-control: public
+  cache-control: max-age=360
