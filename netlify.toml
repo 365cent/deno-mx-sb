@@ -5,21 +5,13 @@
     /opt/buildhome/.deno/bin/deno task build --location=https://mx.sb/ \
   """
 [[headers]]
-  for = "/*/*.js"
+  for = "/*"
   [headers.values]
-    cache-control = "public, age=86400"
-[[headers]]
-  for = "/*/*.css"
-  [headers.values]
-    cache-control = "public, age=86400"
+    cache-control = "public, age=3600, stale-while-revalidate=120"
 [[headers]]
   for = "/pagefind/*"
   [headers.values]
     cache-control = "public, age=604800"
-[[headers]]
-  for = "/*"
-  [headers.values]
-    cache-control = "public, age=120"
 [[redirects]]
   from = "/cv"
   to = "https://publish.uwo.ca/~jding263/resume"
