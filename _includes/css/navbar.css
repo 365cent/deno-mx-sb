@@ -21,7 +21,7 @@ header {
       text-decoration-color: var(--eerie-black);
       text-underline-offset: 1em;
     }
-    &:not(:hover) {
+    &:not(:hover), [aria-current="page"] {
       text-decoration: none;
     }
   }
