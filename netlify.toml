@@ -9,7 +9,11 @@
   [headers.values]
     cache-control = "public, age=120"
 [[headers]]
-  for = ["*.js", "*.css"]
+  for = "*.js"
+  [headers.values]
+    cache-control = "public, age=86400"
+[[headers]]
+  for = "*.css"
   [headers.values]
     cache-control = "public, age=86400"
 [[headers]]
