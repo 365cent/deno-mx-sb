@@ -8,6 +8,7 @@
   for = "/*"
   [headers.values]
     cache-control = "public, age=120"
+[[headers]]
   for = "/pagefind/*"
   [headers.values]
     cache-control = "public, age=604800"
