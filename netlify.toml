@@ -4,7 +4,7 @@
     curl -fsSL https://deno.land/x/install/install.sh | sh && \
     /opt/buildhome/.deno/bin/deno task build --location=https://mx.sb/ \
   """
-[headers]]
+[[headers]]
   for = "/*"
   [headers.values]
     cache-control = "public, age=120"
