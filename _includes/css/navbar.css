@@ -2,6 +2,7 @@ header {
   position: sticky;
   top: 0;
   background-color: var(--white);
+  border-bottom: solid 1px var(--solitude);
 }
 .navbar {
   display: flex;
