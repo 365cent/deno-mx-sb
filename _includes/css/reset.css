@@ -33,8 +33,7 @@ body {
 main {
   width: 96%;
   max-width: 1080px;
-  margin: 0 auto;
-
+  margin: 3em auto;
   & > :first-child {
     margin-top: 0;
   }
