@@ -5,10 +5,6 @@
     /opt/buildhome/.deno/bin/deno task build --location=https://mx.sb/ \
   """
 [[headers]]
-  for = "/*"
-  [headers.values]
-    cache-control = "public, age=120"
-[[headers]]
   for = "*.js"
   [headers.values]
     cache-control = "public, age=86400"
@@ -20,10 +16,10 @@
   for = "/pagefind/*"
   [headers.values]
     cache-control = "public, age=604800"
-[[redirects]]
-  from = "/admin/*"
-  to = "https://mx-sb.netlify.app/admin/:splat"
-  status = 200
+[[headers]]
+  for = "/*"
+  [headers.values]
+    cache-control = "public, age=120"
 [[redirects]]
   from = "/cv"
   to = "https://publish.uwo.ca/~jding263/resume"
