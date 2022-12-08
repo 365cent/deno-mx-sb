@@ -3,8 +3,8 @@
   flex-wrap: wrap;
   align-items: center;
   width: 96%;
-  margin: 1em auto;
-  /* padding: 1rem 1rem 1rem 2rem; */
+  max-width: 1080px;
+  margin: 0 auto;
   column-gap: 2rem;
   row-gap: 1rem;
 
