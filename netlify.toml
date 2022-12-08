@@ -5,11 +5,11 @@
     /opt/buildhome/.deno/bin/deno task build --location=https://mx.sb/ \
   """
 [[headers]]
-  for = "*.js"
+  for = "/*/*.js"
   [headers.values]
     cache-control = "public, age=86400"
 [[headers]]
-  for = "*.css"
+  for = "/*/*.css"
   [headers.values]
     cache-control = "public, age=86400"
 [[headers]]
