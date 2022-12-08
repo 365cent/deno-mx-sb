@@ -14,10 +14,12 @@ header {
   margin: 0 auto;
   column-gap: 2rem;
   row-gap: 1rem;
-
   & a {
     display: block;
-
+    &:hover {
+      text-decoration-color: var(--eerie-black);
+      text-underline-offset: 1em;
+    }
     &:not(:hover) {
       text-decoration: none;
     }
