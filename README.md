@@ -1,4 +1,5 @@
-# Lume base blog example
+# mx.sb
+> Blog powered by Lume & deno.js
 
 A starter repository showing how to build a blog with the
 [Lume](https://github.com/lumeland/lume) static site generator.
