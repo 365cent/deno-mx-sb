@@ -21,7 +21,7 @@ header {
       text-decoration-color: var(--eerie-black);
       text-underline-offset: 1em;
     }
-    &:not(:hover), & [aria-current="page"]:hover {
+    &:not(:hover) {
       text-decoration: none;
     }
   }
@@ -44,6 +44,9 @@ header {
     /* font-weight: bold; */
     /* text-decoration: underline; */
     background-color: var(--alice-blue);
+    &:hover {
+      text-decoration: none;
+    }
   }
 }
 .navbar-search {
