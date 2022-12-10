@@ -95,9 +95,8 @@ header {
 @media (max-width: 40em) {
   .navbar {
     flex-wrap: nowrap;
-    & .navbar-search {
+    & .navbar-links {
       flex-wrap: nowrap;
-      margin: 0 auto;
       overflow-x: auto;
       & li {
         white-space: nowrap;
