@@ -102,5 +102,12 @@ header {
         white-space: nowrap;
       }
     }
+    & .navbar-search {
+      transition: .25s;
+      &:focus-within {
+        width: 100vw;
+        margin-left: -20vw;
+      }
+    }
   }
 }
