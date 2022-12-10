@@ -103,10 +103,15 @@ header {
       }
     }
     & .navbar-search {
-      transition: .25s;
+      input {
+        width: calc(3em * var(--pagefind-ui-scale));
+      }
       &:focus-within {
         width: 100vw;
         margin-left: -20vw;
+        & input {
+          width: 100%;
+        }
       }
     }
   }
