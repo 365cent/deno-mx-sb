@@ -103,7 +103,7 @@ header {
       }
     }
     & .navbar-search {
-      input {
+      & input {
         width: calc(3em * var(--pagefind-ui-scale));
       }
       &:focus-within {
