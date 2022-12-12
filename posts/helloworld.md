@@ -3,7 +3,7 @@ title: Hello World
 description: This is a typical helloworld post on mx.sb blog
 date: 2018-05-01
 tags:
-  - another-tag
+  - helloworld
 ---
 
 Leverage agile frameworks to provide a robust synopsis for high level overviews.
