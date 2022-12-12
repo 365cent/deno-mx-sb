@@ -1,8 +1,7 @@
 name: Deploy on S3 bucket
-on: 
-  create:
-    branches:
-      - gh-pages #here we choose to deploy only when a push is detected on the gh-pages branch
+on:
+  push:
+    branches: [ gh-pages ]
 jobs:
   build:
     runs-on: ubuntu-latest
