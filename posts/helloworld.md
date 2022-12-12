@@ -40,3 +40,4 @@ Change trigger method to see if that is working.
 Still not working.
 Testing tirgger by workflow runs.
 Action seems triggered now.
+Change S3 deploy to use the correct branch.
