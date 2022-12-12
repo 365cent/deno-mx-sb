@@ -39,3 +39,4 @@ The S3 deploy seems not trigger yet.
 Change trigger method to see if that is working.
 Still not working.
 Testing tirgger by workflow runs.
+Action seems triggered now.
