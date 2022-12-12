@@ -1,7 +1,9 @@
 name: Deploy on S3 bucket
 on:
-  workflow_call:
-    branches: [ gh-pages ]
+  workflow_run:
+    workflows: [Publish on GitHub Pages]
+    types:
+      - completed
 jobs:
   build:
     runs-on: ubuntu-latest
