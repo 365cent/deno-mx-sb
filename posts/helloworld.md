@@ -35,3 +35,4 @@ console.log("Test");
 ```
 
 Testing if the deploy to S3 bucket is success.
+The S3 deploy seems not trigger yet.
