@@ -1,6 +1,6 @@
 name: Deploy on S3 bucket
 on:
-  push:
+  workflow_call:
     branches: [ gh-pages ]
 jobs:
   build:
