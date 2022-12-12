@@ -7,7 +7,7 @@
 [[headers]]
   for = "/*"
   [headers.values]
-    cache-control = "public, max-age=3600, stale-while-revalidate=120"
+    cache-control = "public, max-age=120"
 [[headers]]
   for = "/pagefind/*"
   [headers.values]
