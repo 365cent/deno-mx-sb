@@ -14,9 +14,6 @@ header {
   margin: 0 auto;
   column-gap: 2rem;
   row-gap: 1rem;
-  &>a {
-    padding: 0;
-  }
   & a {
     display: block;
     padding: calc(1em * var(--pagefind-ui-scale));
@@ -27,6 +24,9 @@ header {
     &:not(:hover) {
       text-decoration: none;
     }
+  }
+  & > a:first-child {
+    padding: 0;
   }
 }
 .navbar-home {
