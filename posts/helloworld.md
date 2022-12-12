@@ -41,3 +41,5 @@ Still not working.
 Testing tirgger by workflow runs.
 Action seems triggered now.
 Change S3 deploy to use the correct branch.
+S3 deploy is working. 
+Chaning cache policy.
