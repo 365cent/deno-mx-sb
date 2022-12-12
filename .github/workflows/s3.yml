@@ -19,5 +19,4 @@ jobs:
         aws-region: us-east-1 # Use your bucket region here
     
     - name: Deploy static site to S3 bucket
-      run: aws s3 sync ./ s3://mx-sb --delete
-      # --delete flag will remove any file in the s3 that are not on the "thefoldertodeploy" folder
+      run: aws s3 sync ./ s3://mx-sb --delete --cache-control max-age=120
