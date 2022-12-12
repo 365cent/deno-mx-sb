@@ -34,12 +34,4 @@ function myCommand() {
 console.log("Test");
 ```
 
-Testing if the deploy to S3 bucket is success.
-The S3 deploy seems not trigger yet.
-Change trigger method to see if that is working.
-Still not working.
-Testing tirgger by workflow runs.
-Action seems triggered now.
-Change S3 deploy to use the correct branch.
-S3 deploy is working. 
-Chaning cache policy.
+This is the helloworld post published on S3 storage. Github Action is now running on this blog repository.
