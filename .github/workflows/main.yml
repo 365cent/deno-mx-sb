@@ -1,6 +1,6 @@
 name: Deploy on S3 bucket
 on: 
-  push:
+  deployment:
     branches:
       - gh-pages #here we choose to deploy only when a push is detected on the main branch
 jobs:
