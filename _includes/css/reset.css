@@ -11,6 +11,10 @@
   --font-family: "Noto Sans", -apple-system, system-ui, sans-serif;
 }
 
+::selection {
+  background-color: rgb(35 131 226 /.28)
+}
+
 html,
 body {
   padding: 0;
