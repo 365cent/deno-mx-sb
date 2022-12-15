@@ -1,4 +1,4 @@
-name: Deploy on S3 bucket
+name: Deploy to S3 bucket
 on:
   workflow_run:
     workflows: [Publish on GitHub Pages]
