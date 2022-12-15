@@ -1,10 +1,11 @@
 ---
-layout: layouts/post.njk
 title: About Me
-templateClass: tmpl-post
 menu:
   visible: true
   order: 2
+layout: layouts/post.njk
+templateClass: tmpl-post
 ---
+👋 from 365cent
 
-I am a person that writes stuff.
+Welcome to my blog!
