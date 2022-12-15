@@ -8,7 +8,7 @@
   --white: #fff;
   --floral-white: #fffbf3;
   --solitude: #eaeef1;
-  --font-family: "Noto Sans", -apple-system, system-ui, sans-serif;
+  --font-family: -apple-system, system-ui, sans-serif;
 }
 
 ::selection {
