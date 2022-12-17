@@ -10,8 +10,6 @@ templateClass: tmpl-post
 
 Welcome to my blog!
 
-
-
-#﻿# Friend of mine
+## Friends of mine
 
 * [Haima's Blog](https://peers.cloud)
