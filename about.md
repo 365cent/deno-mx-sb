@@ -1,5 +1,5 @@
 ---
-title: About Me
+title: About
 menu:
   visible: true
   order: 2
@@ -9,3 +9,9 @@ templateClass: tmpl-post
 👋 from 365cent
 
 Welcome to my blog!
+
+
+
+#﻿# Friend of mine
+
+* [Haima's Blog](https://peers.cloud)
