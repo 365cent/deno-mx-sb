@@ -9,7 +9,3 @@ templateClass: tmpl-post
 👋 from 365cent
 
 Welcome to my blog!
-
-## Friends of mine
-
-* [Haima's Blog](https://peers.cloud)
