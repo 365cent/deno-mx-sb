@@ -8,7 +8,7 @@ tags:
   - Deno.js
   - Lume.js
 ---
-This is a typical helloworld posted on mx.sb. 
+This is a typical helloworld post published on mx.sb. 
 
 ```
 Hello, world!
