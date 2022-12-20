@@ -14,17 +14,4 @@ bodyClass: body-post
 
 <hr>
 
-<h2>Friend of Mine</h2>
-<div class="friend-links">
-  <ul>
-  {% for link in links %}
-    <li>
-      <a href="{{ link[0] }}" target="_blank" class="link">
-        <img src="https://plausible.io/favicon/sources/{{ link[0].split("//")[1] }}" />
-        <p>{{ link[1] }}</p>
-        {% if links[2] %}<span>{{ link[2] }}</span>{% endif %}
-      </a>
-    </li>
-  {% endfor %}
-  </ul>
-</div>
+{% include "templates/friendlinks.njk" %}
