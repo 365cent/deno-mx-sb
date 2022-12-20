@@ -43,3 +43,13 @@
     padding: 1em;
   }
 }
+.friend-links {
+  & ul {
+    display: grid;
+    list-style: none;
+    padding: 0;
+  }
+  & li {
+    padding: 1em;
+  }
+}
