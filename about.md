@@ -2,8 +2,8 @@
 title: About
 description: Hello and welcome, this is the about page on mx.sb
 links:
-  - ["https://peers.cloud", "Haima's Blog"]
-  - ["https://0x7f.cc", "🐑"]
+  - ["https://peers.cloud", "Haima's Blog", "", "https://ucarecdn.com/9d7807c0-dbe9-48c7-8a7f-c2ca0ace1ec9/peerscloud_clip.jpg"]
+  - ["https://0x7f.cc", "🐑", "", "https://ucarecdn.com/42cfcba7-1984-406b-9a61-db734a06e3b9/0x7fcc_clip.jpg"]
 menu:
   visible: true
   order: 2
