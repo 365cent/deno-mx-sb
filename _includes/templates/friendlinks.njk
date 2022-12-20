@@ -4,7 +4,7 @@
   {% for link in links %}
     <li>
       <a href="{{ link[0] }}" target="_blank" class="link">
-        <img width="16" height="16" src="https://plausible.io/favicon/sources/{{ link[0].split("//")[1] }}" />
+        <img width="32" height="32" src="https://plausible.io/favicon/sources/{{ link[0].split("//")[1] }}" />
         <p>{{ link[1] }}</p>
         {% if links[2] %}<span>{{ link[2] }}</span>{% endif %}
       </a>
