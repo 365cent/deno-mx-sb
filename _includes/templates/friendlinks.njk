@@ -2,7 +2,7 @@
 <div class="friend-links">
   <ul>
   {% for link in links %}
-    <li>
+    <li bgsrc="{% if links[3] %}{{ link[3] }}{% endif %}">
       <a href="{{ link[0] }}" target="_blank" class="link">
         <img width="32" height="32" src="https://plausible.io/favicon/sources/{{ link[0].split("//")[1] }}" />
         <p>{{ link[1] }}</p>
