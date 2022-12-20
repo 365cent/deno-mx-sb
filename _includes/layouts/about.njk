@@ -18,7 +18,10 @@ bodyClass: body-post
 <ul class="friend-links">
 {% for link in links %}
   <li>
-    <a href="{{ link[1] }}" target="_blank" class="link">{{ link[0] }}</a>
+    <a href="{{ link[1] }}" target="_blank" class="link">
+      <span{{ link[0] }}</span>
+      <img src="https://plausible.io/favicon/sources/{{ link[1] }}" />
+    </a>
   </li>
 {% endfor %}
 </ul>
