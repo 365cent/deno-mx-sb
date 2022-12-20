@@ -1,10 +1,16 @@
 ---
 title: About
+description: Hello and welcome, this is the about page on mx.sb
+links:
+  - https://peers.cloud
+  - Eleventy
+  - Deno.js
+  - Lume.js
 menu:
   visible: true
   order: 2
-layout: layouts/post.njk
-templateClass: tmpl-post
+layout: layouts/about.njk
+templateClass: tmpl-page
 ---
 👋 from 365cent
 
