@@ -2,7 +2,7 @@
 title: About
 description: Hello and welcome, this is the about page on mx.sb
 links:
-  - ["Haima's Blog", "https://peers.cloud"]
+  - ["https://peers.cloud", "Haima's Blog"]
 menu:
   visible: true
   order: 2
