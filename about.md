@@ -3,9 +3,6 @@ title: About
 description: Hello and welcome, this is the about page on mx.sb
 links:
   - https://peers.cloud
-  - Eleventy
-  - Deno.js
-  - Lume.js
 menu:
   visible: true
   order: 2
