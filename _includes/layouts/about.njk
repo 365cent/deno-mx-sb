@@ -9,10 +9,13 @@ bodyClass: body-post
 
   <div class="post-body">
     {{ content | safe }}
-    <ul class="friend-links">
-    {% for link in links %}
-      <li><a href="{{ link }}" class="link">{{ link }}</a></li>
-    {% endfor %}
-    </ul>
   </div>
 </article>
+
+<hr>
+
+<ul class="friend-links">
+{% for link in links %}
+  <li><a href="{{ link }}" class="link">{{ link }}</a></li>
+{% endfor %}
+</ul>
