@@ -43,14 +43,3 @@
     padding: 1em;
   }
 }
-.friend-links {
-  & ul {
-    display: grid;
-    grid-template-columns: repeat(auto-fill,minmax(20em,1fr));
-    list-style: none;
-    padding: 0;
-  }
-  & li {
-    padding: 1em;
-  }
-}
