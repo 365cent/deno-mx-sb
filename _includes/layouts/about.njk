@@ -17,6 +17,8 @@ bodyClass: body-post
 <h2>Friend of Mine</h2>
 <ul class="friend-links">
 {% for link in links %}
-  <li><a href="{{ link[1] }}" class="link">{{ link[0] }}</a></li>
+  <li>
+    <a href="{{ link[1] }}" target="_blank" class="link">{{ link[0] }}</a>
+  </li>
 {% endfor %}
 </ul>
