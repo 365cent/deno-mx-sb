@@ -6,6 +6,10 @@
     padding: 0;
   }
   & li {
+    border-radius: .6em;
+  }
+  & a {
+    display: block;
     padding: 1em;
   }
 }
