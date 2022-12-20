@@ -19,9 +19,10 @@ bodyClass: body-post
   <ul>
   {% for link in links %}
     <li>
-      <a href="{{ link[1] }}" target="_blank" class="link">
-        <span>{{ link[0] }}</span>
-        <img src="https://plausible.io/favicon/sources/{{ link[1].split("//")[1] }}" />
+      <a href="{{ link[0] }}" target="_blank" class="link">
+        <img src="https://plausible.io/favicon/sources/{{ link[1].split("//")[0] }}" />
+        <p>{{ link[1] }}</p>
+        {% if links[2] %}<span></span>{% endif %}
       </a>
     </li>
   {% endfor %}
