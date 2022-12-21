@@ -11,22 +11,22 @@
     background-size: cover;
     background-position: center;
     overflow: hidden;
+    border: 1px solid #eaeaea;
+    box-shadow: 0 4px 6px rgb(0 0 0 / .04);
+    transition: box-shadow .25s;
+    &:hover {
+      box-shadow: 0 6px 14px rgb(0 0 0 / .08);
+    }
   }
   & div {
     display: grid;
     grid-template-columns: 4em auto;
     align-items: center;
-    border: 1px solid #eaeaea;
-    box-shadow: 0 4px 6px rgb(0 0 0 / .04);
   }
   & a {
     color: #fff;
     padding: 1em;
     text-decoration: none;
-    transition: box-shadow .25s;
-    &:hover {
-      box-shadow: 0 6px 14px rgb(0 0 0 / .08);
-    }
   }
   & img {
     margin: auto;
