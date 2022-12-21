@@ -4,7 +4,7 @@
   {% for link in links %}
     {% set descr = link[2] %}
     {% set bg = link[3] %}
-    <li {% if bg %}background="{{ bg }}"{% endif %}>
+    <li {% if bg %}style="background-image: url({{ bg }})"{% endif %}>
       <a href="{{ link[0] }}" target="_blank" class="link">
         <img width="48" height="48" src="https://plausible.io/favicon/sources/{{ link[0].split("//")[1] }}" />
         <p>{{ link[1] }}</p>
