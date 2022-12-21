@@ -12,10 +12,10 @@
     background-position: center;
     overflow: hidden;
     border: 1px solid #eaeaea;
-    box-shadow: 0 4px 6px rgb(0 0 0 / .04);
+    box-shadow: 0 4px 6px rgb(0 0 0 / .1);
     transition: box-shadow .25s;
     &:hover {
-      box-shadow: 0 6px 14px rgb(0 0 0 / .08);
+      box-shadow: 0 6px 14px rgb(0 0 0 / .2);
     }
   }
   & div {
