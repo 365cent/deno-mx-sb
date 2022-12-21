@@ -8,6 +8,8 @@
   }
   & li {
     border-radius: .6em;
+    background-size: cover;
+    background-position: center;
   }
   & a {
     display: grid;
