@@ -12,6 +12,11 @@
     background-position: center;
     overflow: hidden;
   }
+  & div {
+    display: grid;
+    grid-template-columns: 4em auto;
+    align-items: center;
+  }
   & a {
     color: #fff;
     padding: 1em;
@@ -21,11 +26,6 @@
     transition: box-shadow .25s;
     &:hover {
       box-shadow: 0 6px 14px rgb(0 0 0 / .08);
-    }
-    & div {
-      display: grid;
-      grid-template-columns: 4em auto;
-      align-items: center;
     }
   }
   & img {
