@@ -10,7 +10,7 @@
   }
   & a {
     display: grid;
-    grid-template-columns: 6em auto;
+    grid-template-columns: 4em auto;
     padding: 1em;
     text-decoration: none;
   }
