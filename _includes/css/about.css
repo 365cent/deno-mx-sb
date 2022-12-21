@@ -24,9 +24,14 @@
     align-items: center;
   }
   & a {
+    display: block;
     color: #fff;
     padding: 1em;
     text-decoration: none;
+    transition: .25s;
+    &:hover {
+      backdrop-filter: blur(.3em);
+    }
   }
   & img {
     margin: auto;
