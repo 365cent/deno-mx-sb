@@ -4,6 +4,7 @@ description: Hello and welcome, this is the about page on mx.sb
 links:
   - ["https://0x7f.cc", "🐑", "如无必要，勿增实体", "https://ucarecdn.com/1bc4cb73-4d73-48b1-8ae7-24085f2420d9/0x7fcc_crop.jpg"]
   - ["https://rbq.ai", "人工智障的绒布球", "好耶，是YF大佬", "https://ucarecdn.com/630bcfec-86cc-46f5-9c24-c00bb0df70b6/rbqai_crop.gif"]
+  - ["https://kevinzonda.com", "KevinZonda", "天天装菜的全栈kv大佬", "https://ucarecdn.com/e3345406-7c97-4298-a606-36c0b14ae8b6/kevinzondacom_crop.png"]
 menu:
   visible: true
   order: 2
