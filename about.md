@@ -2,8 +2,8 @@
 title: About
 description: Hello and welcome, this is the about page on mx.sb
 links:
-  - ["https://peers.cloud", "Haima's Blog", "如果有希望的话，谁会选择这样呢", "https://ucarecdn.com/9d7807c0-dbe9-48c7-8a7f-c2ca0ace1ec9/peerscloud_clip.jpg"]
-  - ["https://0x7f.cc", "🐑", "如无必要，勿增实体", "https://ucarecdn.com/42cfcba7-1984-406b-9a61-db734a06e3b9/0x7fcc_clip.jpg"]
+  - ["https://0x7f.cc", "🐑", "如无必要，勿增实体", "https://ucarecdn.com/1bc4cb73-4d73-48b1-8ae7-24085f2420d9/0x7fcc_crop.jpg"]
+  - ["https://rbq.ai", "人工智障的绒布球", "好耶，是YF大佬", "https://ucarecdn.com/630bcfec-86cc-46f5-9c24-c00bb0df70b6/rbqai_crop.gif"]
 menu:
   visible: true
   order: 2
