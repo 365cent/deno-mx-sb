@@ -1,11 +1,13 @@
 ---
-title: This is my second post.
-description: This is a post on My Blog about leveraging agile frameworks.
-date: 2018-07-04
+title: 使用Nunjucks模板引擎创建友链列表
+description: 这篇文章介绍了博主如何使用Nunjucks模板引擎在Lume博客上创建友链列表
+date: 2022-12-20
 tags:
-  - number-2
-  - second-tag
-
+  - Nunjucks
+  - Mozilla
+  - Friend links
+  - Template engine
+draft: true
 ---
 
 Leverage agile frameworks to provide a robust synopsis for high level overviews.
