@@ -2,11 +2,13 @@
 <div class="friend-links">
   <ul>
   {% for link in links %}
-    <li {% if links[3] %}background="{{ link[3] }}"{% endif %}>
+    {% set descr = link[2] %}
+    {% set bg = link[3] %}
+    <li {% if bg %}background="{{ bg }}"{% endif %}>
       <a href="{{ link[0] }}" target="_blank" class="link">
         <img width="48" height="48" src="https://plausible.io/favicon/sources/{{ link[0].split("//")[1] }}" />
         <p>{{ link[1] }}</p>
-        {% if links[2] %}<span>{{ link[2] }}</span>{% endif %}
+        {% if descr %}<span>{{ descr }}</span>{% endif %}
       </a>
     </li>
   {% endfor %}
