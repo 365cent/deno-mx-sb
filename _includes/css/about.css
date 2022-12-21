@@ -9,8 +9,12 @@
     border-radius: .6em;
   }
   & a {
-    display: block;
+    display: grid;
+    grid-template-columns: 6em auto;
     padding: 1em;
     text-decoration: none;
+  }
+  & p {
+    font-size: 1.2em;
   }
 }
