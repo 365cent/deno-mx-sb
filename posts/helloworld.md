@@ -6,10 +6,12 @@ tags:
   - Helloworld
   - Eleventy
   - Deno.js
-  - Lume.js
+  - Lume
 ---
 This is a typical helloworld post published on mx.sb. 
 
 ```
 Hello, world!
 ```
+
+[Check what technologies using in this blog](/about/)
