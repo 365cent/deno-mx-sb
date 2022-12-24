@@ -46,4 +46,7 @@
 
 .utterances {
   max-width: none;
+  & iframe {
+    filter: opacity(.8);
+  }
 }
