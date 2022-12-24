@@ -28,7 +28,7 @@
     color: #fff;
     padding: 1em;
     text-decoration: none;
-    text-shadow: 0 6px 14px rgb(0 0 0 / .6);
+    filter: drop-shadow(2px 2px 4px rgb(0 0 0 / 60%));
     transition: .25s;
     &:hover {
       backdrop-filter: blur(.3em);
