@@ -43,3 +43,7 @@
     padding: 1em;
   }
 }
+
+.utterances {
+  max-width: none;
+}
