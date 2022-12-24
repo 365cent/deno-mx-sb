@@ -46,7 +46,4 @@
 
 .utterances {
   max-width: none;
-  & iframe {
-    filter: hue-rotate(110deg) saturate(2) sepia(.1);
-  }
 }
