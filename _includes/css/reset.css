@@ -22,7 +22,7 @@ body {
   margin: 0;
   font-family: var(--font-family);
   color: var(--darkgray);
-  background-color: var(--floral-white);
+  background-color: var(--lavender);
 
   /** Pagefind variables */
   --pagefind-ui-scale: .8;
