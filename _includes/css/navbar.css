@@ -45,8 +45,6 @@ header {
   column-gap: 1em;
 
   & [aria-current="page"] {
-    /* font-weight: bold; */
-    /* text-decoration: underline; */
     background-color: var(--alice-blue);
     &:hover {
       text-decoration: none;
