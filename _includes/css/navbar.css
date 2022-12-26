@@ -62,6 +62,7 @@ header {
     top: calc(1em * var(--pagefind-ui-scale));
   }
   & .pagefind-ui__search-input {
+    font-weight: 400;
     height: calc(3em * var(--pagefind-ui-scale));
   }
   & .pagefind-ui__drawer {
