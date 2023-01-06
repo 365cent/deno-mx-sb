@@ -15,6 +15,7 @@ const site = lume({
 site
   .ignore("README.md")
   .copy("img")
+  .copy("favicon.ico")
   .use(postcss())
   .use(date())
   .use(codeHighlight())
