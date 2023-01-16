@@ -33,7 +33,7 @@ header {
   & strong {
     transition: .25s
       &:hover {
-            text-shadow: 2px 2px 0 rgb(109 74 255 / 30%);
+            text-shadow: 2px 2px 0 rgb(109 74 255 / .3);
     }
   }
 }
