@@ -50,7 +50,7 @@ Here's how you can get a free SSL certificate from Google and install it with Ca
    }
    ```
 
-   I﻿f you haven't familiar with Caddy global options, see https://caddyserver.com/docs/caddyfile/options#global-options
+   I﻿f you aren't familiar with Caddy global options, see <https://caddyserver.com/docs/caddyfile/options#global-options>
 6. R﻿eload Caddy: after run Caddy reload or systemctl restart caddy. Your GTS certificate  should now be ready. (This is faster than I expected since Lets and ZeroSSL issue SSL certificates slower than this).
 7. To confirm that your certificate is ready, run systemctl status caddy, and you should see output indicating that your GTS SSL is active.
 
