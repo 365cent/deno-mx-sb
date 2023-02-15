@@ -19,8 +19,8 @@ As you may be aware, Let's Encrypt's root certificate has expired, and some webs
 Here's how you can get a free SSL certificate from Google and install it with Caddy:
 
 1. Create a project on Google Cloud Platform first (it's free, and you get a free $200 credit when you sign up).
-2. Get your project ID: go to your GCP dashboard (<https://console.cloud.google.com/apis/dashboard?project=sharp-fire-310301>) and click the "My Project" button in the top left corner. Your project ID (e.g., sharp-fire-310310) should appear.
-3. Go to https://console.cloud.google.com/apis/library/publicca.googleapis.com?project=<Project ID> to activate your Public Certificate Authority API. where Project ID is what you obtained in the previous step. Enable it for free.
+2. Get your project ID: go to your GCP dashboard (e.g. <https://console.cloud.google.com/apis/dashboard?project=sharp-fire-310301>) and click the "My Project" button in the top left corner. Your project ID (e.g., sharp-fire-310310) should appear.
+3. Go to [https://console.cloud.google.com/apis/library/publicca.googleapis.com?project=<Project ID>](<1. https://console.cloud.google.com/apis/library/publicca.googleapis.com?project=<Project ID>>) to activate your Public Certificate Authority API. where Project ID is what you obtained in the previous step. Enable it for free.
 4. Create an authority key: In the top right corner, click the Cloud Shell icon. Type in the following command:
 
    ```shell
