@@ -11,7 +11,7 @@ tags:
   - tls
   - ssl
   - certificate
-draft: true
+draft: false
 ---
 # How to get FREE Google Trust Services SSL certificate for your website with Caddy
 
