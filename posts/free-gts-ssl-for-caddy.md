@@ -4,7 +4,7 @@ title: How to get FREE Google Trust Services SSL certificate for your website
 description: This article tells you how to get free Google Trust Services SSL
   certificate for your website with Caddy
 date: 2023-02-15T17:10:17.954Z
-pinned: true
+pinned: false
 tags:
   - gts
   - googletrustservices
