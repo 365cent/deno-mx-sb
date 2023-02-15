@@ -1,37 +1,25 @@
 ---
-title: This is my third post.
-description: This is a post on My Blog about win-win survival strategies.
-date: 2018-08-24
+title: How to get FREE Google Trust Services SSL certificate for your website
+  with Caddy
+description: This article tells you how to get free Google Trust Services SSL
+  certificate for your website with Caddy
+date: 2023-02-15T17:10:17.954Z
 pinned: true
 tags:
-  - second-tag
+  - gts
+  - googletrustservices
+  - tls
+  - ssl
+  - certificate
+draft: true
 ---
 
-Leverage agile frameworks to provide a robust synopsis for high level overviews.
-Iterative approaches to corporate strategy foster collaborative thinking to
-further the overall value proposition. Organically grow the holistic world view
-of disruptive innovation via workplace diversity and empowerment.
 
-```js
-// this is a command
-function myCommand() {
-  let counter = 0;
+It has been a while since Let's Encrypt's root certificate expired. Some website owners have switched to a different certificate issuer or are dealing with Let's Encrypt's new root.
 
-  counter++;
-}
+I, personally, use mostly ZeroSSL and Amazon SSL for securing most personal websites, and Sectigo Root works great for me and also benefits from its accessible OSCP servers. I just recently read that Google is providing free public certificates for websites: https://cloud.google.com/blog/products/identity-security/automate-public-certificate-lifecycle-management-via-acme-client-api, and I think it would be cool to have my website secured by GTS (Google Trust Services).
 
-// Test with a line break above this line.
-console.log("Test");
-```
+Here is what we can do to get a free SSL certificate from Google (I would also include how to install it with Caddy).
 
-Bring to the table win-win survival strategies to ensure proactive domination.
-At the end of the day, going forward, a new normal that has evolved from
-generation X is on the runway heading towards a streamlined cloud solution. User
-generated content in real-time will have multiple touchpoints for offshoring.
-
-## Section Header
-
-Capitalize on low hanging fruit to identify a ballpark value added activity to
-beta test. Override the digital divide with additional clickthroughs from
-DevOps. Nanotechnology immersion along the information highway will close the
-loop on focusing solely on the bottom line.
+1. Create a project on Google Cloud Platform first (it's free, and you get a free $200 credit when you sign up).
+2.
