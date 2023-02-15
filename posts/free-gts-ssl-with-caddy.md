@@ -12,8 +12,6 @@ tags:
   - certificate
 draft: false
 ---
-# How to get FREE Google Trust Services SSL certificate for your website with Caddy
-
 Are you interested in learning how to obtain a free SSL certificate for your website from Google Trust Services using Caddy? Let me guide you through the process.
 
 As you may be aware, Let's Encrypt's root certificate has expired, and some website owners have switched to a different certificate issuer or are dealing with Let's Encrypt's new root. For my personal websites, I use ZeroSSL and Amazon SSL, which work great for me, and Sectigo Root benefits from its accessible OSCP servers. However, I recently learned that Google is offering free public certificates for websites, which is pretty cool, and I decided to secure my website with GTS.
