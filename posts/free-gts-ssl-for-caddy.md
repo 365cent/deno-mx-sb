@@ -43,7 +43,7 @@ Here's how you can get a free SSL certificate from Google and install it with Ca
    T﻿he  phrase after b64MacKey is your key, and after keyId is key id you need to use.
 5. Update your Caddyfile: add following to your global option for Caddy
 
-   ```editorconfig
+   ```shell
    email <Your email>
    acme_ca https://dv.acme-v02.api.pki.goog/directory
    acme_eab {
