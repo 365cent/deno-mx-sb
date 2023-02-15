@@ -43,7 +43,7 @@ Here's how you can get a free SSL certificate from Google and install it with Ca
    T﻿he  phrase after b64MacKey is your key, and after keyId is key id you need to use.
 5. Update your Caddyfile: add following to your global option for Caddy
 
-   ```editorconfig
+   ```shell
    email <Your email>
    acme_ca https://dv.acme-v02.api.pki.goog/directory
    acme_eab {
@@ -56,7 +56,7 @@ Here's how you can get a free SSL certificate from Google and install it with Ca
 6. R﻿eload Caddy: after run Caddy reload or systemctl restart caddy. Your GTS certificate  should now be ready. (This is faster than I expected since Lets and ZeroSSL issue SSL certificates slower than this).
 7. To confirm that your certificate is ready, run systemctl status caddy, and you should see output indicating that your GTS SSL is active.
 
-   ```
+   ```shell
    Feb 15 11:15:24 misty caddy[2981403]: {"level":"info","ts":1676477724.6448865,"logger":"tls","msg":"served key authentication certificate","server_name":"<Your domain>","challenge":"tls-alpn-01","remote":"46.29.169.36:63136","distributed":false}
    Feb 15 11:15:28 misty caddy[2981403]: {"level":"info","ts":1676477728.6581016,"logger":"http.acme_client","msg":"authorization finalized","identifier":"<Your domain>","authz_status":"valid"}
    Feb 15 11:15:28 misty caddy[2981403]: {"level":"info","ts":1676477728.6589515,"logger":"http.acme_client","msg":"validations succeeded; finalizing order","order":"https://dv.acme-v02.api.pki.goog/order/oCVILp8kjElvQnZWnvFX0A"}
