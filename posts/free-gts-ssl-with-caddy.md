@@ -63,6 +63,6 @@ Here's how you can get a free SSL certificate from Google and install it with Ca
    Feb 15 11:15:34 misty caddy[2981403]: {"level":"info","ts":1676477734.5903862,"logger":"tls.obtain","msg":"releasing lock","identifier":"<Your domain>"}
    ```
 
-   And that's it! Your website should now be secured with a free SSL certificate from Google Trust Services. Check it out and enjoy the added security. I've included an image of a website secured with GTS SSL for reference.
+And that's it! Your website should now be secured with a free SSL certificate from Google Trust Services. Check it out and enjoy the added security. I've included an image of a website secured with GTS SSL for reference
 
-   ![Website with GTS SSL](https://ucarecdn.com/0045ec29-51b0-4ed9-827f-2419623e4f4a/)
+![Website with GTS SSL](https://ucarecdn.com/0045ec29-51b0-4ed9-827f-2419623e4f4a/)
