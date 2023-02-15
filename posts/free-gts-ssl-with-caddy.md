@@ -35,7 +35,7 @@ Here's how you can get a free SSL certificate from Google and install it with Ca
    ```shell
    Created an external account key
    [b64MacKey: 3f90fbuKnl9a0c8ItD-BZygttn-5yCxgak7NKVXHml5x3NM09cygJgbVZd1EDWxFif_OGzx2ZtDJCcH19_9QMA
-   keyId: 5743b1609344f82973328515f883faa1]
+   keyId: 5743b1609344f82973328515f883faa1
    ```
 
    T﻿he  phrase after b64MacKey is your key, and after keyId is key id you need to use.
