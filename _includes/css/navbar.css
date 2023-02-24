@@ -78,6 +78,10 @@ header {
     margin: .2em;
     height: 3em;
     border: none;
+    transition: .25s;
+    &:hover {
+      color: var(--lightgray);
+    }
   }
   & .pagefind-ui__drawer {
     margin-top: 2px;
