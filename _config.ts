@@ -22,7 +22,7 @@ site
   .use(basePath())
   .use(pageFind({
     ui: {
-      resetStyles: true,
+      resetStyles: false,
     },
   }))
   .use(slugifyUrls({ alphanumeric: false }))
