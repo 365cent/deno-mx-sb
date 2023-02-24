@@ -3,7 +3,7 @@
   "tasks": {
     "build": "deno task lume",
     "serve": "deno task lume -s",
-    //"lume": "deno eval \"import 'lume/cli.ts'\" --"
+    "__lume__": "deno eval \"import 'lume/cli.ts'\" --"
     "lume": "DENO_DIR=_vendor echo \"import 'lume/cli.ts'\" | deno run --unstable -A -"
   }
 }
