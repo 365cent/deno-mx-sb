@@ -71,6 +71,11 @@ header {
     font-weight: 400;
     height: calc(3em * var(--pagefind-ui-scale));
   }
+  & .pagefind-ui__search-clear {
+    margin: .2em;
+    height: 3em;
+    border: none;
+  }
   & .pagefind-ui__drawer {
     margin-top: 2px;
     position: absolute;
