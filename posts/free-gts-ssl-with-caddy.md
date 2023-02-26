@@ -1,5 +1,5 @@
 ---
-title: Get free GTS SSL for website with Caddy
+title: Get free GTS SSL for your website with Caddy
 description: This article tells you how to get free Google Trust Services SSL
   certificate for your website with Caddy
 date: 2023-02-15T17:10:17.954Z
