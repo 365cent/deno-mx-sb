@@ -53,4 +53,7 @@
   & iframe {
     filter: opacity(.8);
   }
+  & g-emoji {
+    font-family: emoji;
+  }
 }
