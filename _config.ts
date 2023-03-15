@@ -1,12 +1,12 @@
 import lume from "lume/mod.ts";
 import date from "lume/plugins/date.ts";
+import metas from "lume/plugins/metas.ts";
 import postcss from "lume/plugins/postcss.ts";
 import minifyHTML from "lume/plugins/minify_html.ts";
 import codeHighlight from "lume/plugins/code_highlight.ts";
 import basePath from "lume/plugins/base_path.ts";
 import slugifyUrls from "lume/plugins/slugify_urls.ts";
 import resolveUrls from "lume/plugins/resolve_urls.ts";
-import metas from "lume/plugins/metas.ts";
 import netlifyCMS from "lume/plugins/netlify_cms.ts";
 import pageFind from "lume/plugins/pagefind.ts";
 
@@ -18,6 +18,7 @@ site
   .ignore("README.md")
   .copy("img")
   .copy("favicon.ico")
+  .use(metas())
   .use(postcss())
   .use(minifyHTML({
     extensions: [".html", ".js", ".css"]
@@ -32,7 +33,6 @@ site
   }))
   .use(slugifyUrls({ alphanumeric: false }))
   .use(resolveUrls())
-  .use(metas())
   .use(netlifyCMS({ netlifyIdentity: true }));
 
 export default site;
