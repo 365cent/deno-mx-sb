@@ -18,6 +18,7 @@ site
   .ignore("README.md")
   .copy("img")
   .copy("favicon.ico")
+  .copy("favicon.png")
   .use(metas())
   .use(postcss())
   .use(minifyHTML({
