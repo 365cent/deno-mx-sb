@@ -1,6 +1,7 @@
 import lume from "lume/mod.ts";
 import date from "lume/plugins/date.ts";
 import postcss from "lume/plugins/postcss.ts";
+import minifyHTML from "lume/plugins/minify_html.ts";
 import codeHighlight from "lume/plugins/code_highlight.ts";
 import basePath from "lume/plugins/base_path.ts";
 import slugifyUrls from "lume/plugins/slugify_urls.ts";
@@ -17,6 +18,9 @@ site
   .copy("img")
   .copy("favicon.ico")
   .use(postcss())
+  .use(minifyHTML({
+    extensions: [".html", ".js", ".css"]
+  }))
   .use(date())
   .use(codeHighlight())
   .use(basePath())
