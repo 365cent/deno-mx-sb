@@ -12,7 +12,7 @@ tags:
 ---
 Tor, short for The Onion Router, is an anonymity network that enables users to browse the internet anonymously by encrypting their traffic and routing it through a series of nodes. These nodes can be run by anyone, and the final node, known as the exit node, is responsible for sending traffic back onto the regular internet. Running a Tor exit node is an important way to contribute to the privacy and freedom of the internet, but it requires some technical expertise and responsibility. In this blog post, we’ll walk you through the process of hosting a Tor exit node.
 
-## S﻿tep 0: Consider before deploy
+## Step 0: Consider before deploy
 Here are some things to consider:
 
 * Legal considerations: In some countries, hosting a Tor exit node is illegal, and you could face legal consequences for doing so. You should research the laws in your country and make sure that hosting a Tor exit node is legal before proceeding.
@@ -35,7 +35,7 @@ Once you have chosen a location, you will need to set up a server. You can use a
 
 Next, you will need to install the Tor software and configure it for use as an exit node. You can install Tor using the package manager for your Linux distribution, or you can download and install it from the Tor Project’s website. Once installed, you will need to configure Tor to run as an exit node, which involves editing the Tor configuration file. The Tor Project provides detailed instructions for configuring Tor as an exit node.
 
-Tor Project have handful documentation to help you going through installation: <https://community.torproject.org/onion-services/setup/install/>. 
+The Tor Project has a handful of documentation to help you through the installation process: <https://community.torproject.org/onion-services/setup/install/>. 
 
 I also found this video useful during setup: <https://www.youtube.com/watch?v=EMZqZ3XX8Eo>
 
@@ -63,7 +63,7 @@ ContactInfo youremail@mail.com
 IPv6Exit 1
 ```
 
-Here is additional lines to set up obfs4 bridge:
+To set up an obfs4 bridge, use the following additional lines:
 
 ```shell
 ServerTransportPlugin obfs4 exec /usr/bin/obfs4proxy
@@ -71,11 +71,11 @@ ServerTransportListenAddr obfs4 0.0.0.0:40001
 ExtORPort auto
 ```
 
-R﻿ead more about obfs4 bridge setup on <https://community.torproject.org/relay/setup/bridge>
+Read more about obfs4 bridge setup on <https://community.torproject.org/relay/setup/bridge>
 
-T﻿or Project has a wiki about how to host different types of relay nodes: <https://community.torproject.org/relay/setup/>
+For hosting different types of relay nodes, Tor Project has a wiki: <https://community.torproject.org/relay/setup/>
 
-F﻿or exit node, it is required to setup your local dns resolver: 
+For exit node, it is required to setup your local dns resolver: 
 
 Debian/Ubuntu
 
@@ -101,7 +101,7 @@ If you are running **systemd-resolved** with its stub listener, you may need t
 
 After you have configured Tor, you will want to test your exit node to make sure it is working properly. You can use the Tor Browser to test your exit node by connecting to a website and verifying that your IP address is listed as the exit node IP address. You can also use the Tor Metrics website to monitor the bandwidth usage and performance of your exit node.
 
-T﻿o see if you exit node is running, check this bulk list: <https://check.torproject.org/torbulkexitlist>
+To see if you exit node is running, check this bulk list: <https://check.torproject.org/torbulkexitlist>
 
 ## Step 5: Monitor Your Exit Node
 
