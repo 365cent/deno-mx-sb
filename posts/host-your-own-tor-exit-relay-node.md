@@ -89,7 +89,7 @@ echo nameserver 127.0.0.1 > /etc/resolv.conf
 
 To avoid unwanted configuration changed (for example by the DHCP client):
 
-```
+```shell
 chattr +i /etc/resolv.conf
 ```
 
