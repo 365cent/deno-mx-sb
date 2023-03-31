@@ -109,7 +109,7 @@ Once your exit node is up and running, it’s important to monitor it to ensure 
 
 T﻿or Project also provides a helpful page for post-install and good practice: <https://community.torproject.org/relay/setup/post-install/>
 
-Elsa node is an Tor exit I am currently running, see:
+Elsa node is an Tor exit node I am currently running, see:
 
 <https://metrics.torproject.org/rs.html#search/elsa>
 
