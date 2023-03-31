@@ -35,7 +35,11 @@ Step 3: Install and Configure Tor
 
 Next, you will need to install the Tor software and configure it for use as an exit node. You can install Tor using the package manager for your Linux distribution, or you can download and install it from the Tor Project’s website. Once installed, you will need to configure Tor to run as an exit node, which involves editing the Tor configuration file. The Tor Project provides detailed instructions for configuring Tor as an exit node.
 
-The following website, https://community.torproject.org/onion-services/setup/install/, could be a valuable resource to assist you in installing your Tor software. For instance, on Debian/Ubuntu, you can simply run the command apt install tor to install the software, and then modify the configuration file located at /etc/tor/torrc using your preferred text editor. This resource can also be useful if you intend to set up a Tor relay. One thing to keep in mind is that if you plan on hosting an exit node, the setup provided in the tutorial will block all exit traffic. In this case, you may want to consider using the following configuration setup instead:
+Tor Project have handful documentation to help you going through installation: <https://community.torproject.org/onion-services/setup/install/>. 
+
+I also found this video useful during setup: <https://www.youtube.com/watch?v=EMZqZ3XX8Eo>
+
+For instance, on Debian/Ubuntu, you can simply run the command \`apt install tor\` to install the software, and then modify the configuration file located at \`/etc/tor/torrc\` using your preferred text editor. This resource can also be useful if you intend to set up a Tor relay. One thing to keep in mind is that if you plan on hosting an exit node, the setup provided in the tutorial will block all exit traffic. In this case, you may want to consider using the following configuration setup instead:
 
 ```shell
 Exitpolicy accept *:443
