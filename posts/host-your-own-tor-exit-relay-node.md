@@ -63,7 +63,7 @@ ContactInfo youremail@mail.com
 IPv6Exit 1
 ```
 
-Here is additional line to set up obfs4 bridge:
+Here is additional lines to set up obfs4 bridge:
 
 ```shell
 ServerTransportPlugin obfs4 exec /usr/bin/obfs4proxy
