@@ -8,8 +8,8 @@
   }
   & li {
     border-radius: .6em;
-    background-size: cover;
-    background-position: center;
+    background-size: cover!important;
+    background-position: center!important;
     overflow: hidden;
     border: 1px solid #eaeaea;
     box-shadow: 0 4px 6px rgb(0 0 0 / .1);
