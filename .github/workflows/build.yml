@@ -19,7 +19,7 @@ jobs:
 
       - name: Build site
         run: |
-          deno task build --location=https://mx.sb
+          deno task build --location=https://mx.sb/
 
       - name: Deploy
         uses: crazy-max/ghaction-github-pages@v2.0.1
