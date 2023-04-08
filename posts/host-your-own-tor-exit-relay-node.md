@@ -3,12 +3,12 @@ title: Host your own Tor exit / relay node
 description: This article tells you how to host a Tor exit / relay node for onion service
 date: 2023-03-31T01:53:31.694Z
 tags:
-  - Tor
-  - Onion
-  - TorProject
+  - tor
+  - onion
+  - torproject
   - exitnode
-  - Torrelay
-  - Torrc
+  - torrelay
+  - torrc
 ---
 Tor, short for The Onion Router, is an anonymity network that enables users to browse the internet anonymously by encrypting their traffic and routing it through a series of nodes. These nodes can be run by anyone, and the final node, known as the exit node, is responsible for sending traffic back onto the regular internet. Running a Tor exit node is an important way to contribute to the privacy and freedom of the internet, but it requires some technical expertise and responsibility. In this blog post, we’ll walk you through the process of hosting a Tor exit node.
 
